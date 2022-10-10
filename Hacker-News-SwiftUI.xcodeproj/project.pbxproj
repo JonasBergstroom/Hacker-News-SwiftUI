@@ -14,6 +14,7 @@
 		2EE7083428F47B15001519F2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7083328F47B15001519F2 /* NetworkManager.swift */; };
 		2EE7083628F47C8B001519F2 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7083528F47C8B001519F2 /* PostData.swift */; };
 		2EE7083928F486E1001519F2 /* ShowPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7083828F486E1001519F2 /* ShowPostView.swift */; };
+		2EE7083B28F48B82001519F2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7083A28F48B82001519F2 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2EE7083328F47B15001519F2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2EE7083528F47C8B001519F2 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		2EE7083828F486E1001519F2 /* ShowPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPostView.swift; sourceTree = "<group>"; };
+		2EE7083A28F48B82001519F2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				2EE7082628F47775001519F2 /* ContentView.swift */,
 				2EE7083828F486E1001519F2 /* ShowPostView.swift */,
+				2EE7083A28F48B82001519F2 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				2EE7083428F47B15001519F2 /* NetworkManager.swift in Sources */,
 				2EE7083928F486E1001519F2 /* ShowPostView.swift in Sources */,
 				2EE7083628F47C8B001519F2 /* PostData.swift in Sources */,
+				2EE7083B28F48B82001519F2 /* WebView.swift in Sources */,
 				2EE7082728F47775001519F2 /* ContentView.swift in Sources */,
 				2EE7082528F47775001519F2 /* Hacker_News_SwiftUIApp.swift in Sources */,
 			);
