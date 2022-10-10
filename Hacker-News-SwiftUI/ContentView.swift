@@ -13,9 +13,13 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List {
+            List(networkManager.posts) { post in
+                Text(post.title)
             }
-        .navigationBarTitle("Hacker News")
+            .navigationBarTitle("Hacker News")
+        }
+        .onAppear {
+            self.networkManager.fetchData()
         }
     }
 }
